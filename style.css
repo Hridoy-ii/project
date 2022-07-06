@@ -6,9 +6,11 @@ body{
     font-family: 'Inter', sans-serif;
 }
 section{
-    display: flex;
     margin: 0;
     padding: 0;
+}
+.flx{
+    display: flex;
 }
 .width{
     width: 100%;
@@ -72,21 +74,21 @@ section{
 #tk-box-slctd{
     background-color: rgba(255, 187, 187, 0.3);
     color: #FF5959 !important;
-    border: solid #FF5959;
+    border: solid 2px #FF5959;
     font-weight: 700;
     font-size: 25px;
-    padding: 30px;
+    padding: 35px 15px;
     border-radius: 5px;
 }
 .txt-box{
     margin-bottom: 50px;
 }
 .quick-dnt-box{
-    margin-left: 300px;
+    margin-left: 370px;
     margin-bottom: 30px;
 }
 .tk-box {
-    padding: 30px;
+    padding: 33px 13px;
     border-radius: 5px;
     margin: 0 10px;
     background-color: #FAFAFA;
@@ -115,3 +117,61 @@ input {
     font-family: sans-serif;
 }
 
+
+
+.dnt-plan-part{
+    text-align: center;
+    padding: auto;
+}
+.plan-box{
+    display: inline-block;
+}
+.dnt-plan-ttl{
+    margin-left: 50px;
+}
+.dnt-plan-box {
+    display: flex;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.dnt-plan-part h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.dnt-plan-part p {
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.plan-box {
+    display: inline-block;
+    margin: 18px;
+    padding: 20px 50px 20px 15px;
+    text-align: left;
+}
+.clr1{
+    background-color: rgba(79, 157, 166, 0.2);
+}
+.clr2{
+    background-color: rgba(255, 89, 89, 0.2);
+}
+.clr3{
+    background-color: rgba(255, 244, 214, 0.5);
+}
+.icon {
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.plan-box h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.plan-box p{
+    color: #707070;
+    font-weight: 400;
+}
