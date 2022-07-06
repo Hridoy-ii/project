@@ -78,8 +78,12 @@ section{
     padding: 30px;
     border-radius: 5px;
 }
+.txt-box{
+    margin-bottom: 50px;
+}
 .quick-dnt-box{
     margin-left: 300px;
+    margin-bottom: 30px;
 }
 .tk-box {
     padding: 30px;
@@ -92,3 +96,22 @@ section{
     font-weight: 700;
     font-size: 25px;
 }
+
+
+.ftext{
+    border-top: 0;
+    border-bottom: solid rgba(156, 156, 156, 0.5) 1px;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+
+input::placeholder {
+    color: red;
+}
+
+label,
+input {
+    font-family: sans-serif;
+}
+
