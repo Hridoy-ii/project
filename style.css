@@ -60,4 +60,35 @@ section{
 .dnt-heading h2{
     font-size: 40px;
 }
-.dnt-heading p{}
+.dnt-heading p {
+    color: #707070;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.quick-dnt-box{
+    display: flex;
+}
+#tk-box-slctd{
+    background-color: rgba(255, 187, 187, 0.3);
+    color: #FF5959 !important;
+    border: solid #FF5959;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.quick-dnt-box{
+    margin-left: 300px;
+}
+.tk-box {
+    padding: 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #FAFAFA;
+}
+.tk-box p{
+    color: #707070;
+    font-weight: 700;
+    font-size: 25px;
+}
