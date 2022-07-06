@@ -16,7 +16,7 @@ section{
     width: 100%;
 }
 .bnnr{
-    background-image: url(../assignment1/images/donation13.jpg);
+    background-image: url(../project/images/donation13.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +29,7 @@ section{
 }
 .bnr-txt {
     padding: 200px 350px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     display: inline-block;
 }
@@ -44,7 +44,7 @@ section{
     text-decoration: none;
     padding: 10px 10px;
     background-color: #FF5959;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-top: 10px;
     display: inline-block;
 }
